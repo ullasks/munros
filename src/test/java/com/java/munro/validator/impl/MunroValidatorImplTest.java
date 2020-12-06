@@ -26,7 +26,6 @@ public class MunroValidatorImplTest {
 		MunroFilterResponse response = new MunroFilterResponse();
 		boolean actual = testObj.validate(filter, response);
 		assertTrue(actual);
-		
 	}
 
 	@Test
